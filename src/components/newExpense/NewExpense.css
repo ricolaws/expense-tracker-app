@@ -1,0 +1,41 @@
+.new-expense {
+  background-color: var(--color-primary);
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  /* border-radius: 12px; */
+  text-align: center;
+  /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25); */
+}
+
+.new-expense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  /* border: none; */
+  background: var(--gradient-two);
+  color: white;
+  border-radius: 6px;
+  margin-right: 1rem;
+  border-color: var(--color-light);
+  transition: all 0.8s ease;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+  border-color: var(--color-text);
+  transition: all 0.8s ease;
+}
+
+/* .new-expense button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+} */
+
+/* .new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  background-color: #ddb3f8;
+} */

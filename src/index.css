@@ -1,0 +1,17 @@
+html {
+  --color-text: rgb(37, 37, 37);
+  --color-light: whitesmoke;
+  --color-primary: honeydew;
+  --gradient-one: linear-gradient(135deg, whitesmoke 0%, lightsalmon 100%);
+  --gradient-two: linear-gradient(to bottom right, #f47578, #e74268);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-primary);
+  color: #1f1d1b;
+}
