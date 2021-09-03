@@ -1,5 +1,5 @@
 .card {
   /* border-radius: 6px; */
-  box-shadow: 3px 3px 6px rgba(126, 201, 140, 0.5), 6px 6px 5px #c5c5c59c;
+  box-shadow: 3px 3px 6px rgba(126, 201, 140, 0.5), 6px 6px 2px #c5c5c59c;
   font-family: Arial, Helvetica, sans-serif;
 }

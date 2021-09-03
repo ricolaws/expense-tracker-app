@@ -2,8 +2,9 @@ html {
   --color-text: rgb(37, 37, 37);
   --color-light: whitesmoke;
   --color-primary: hsl(78, 39%, 93%);
-  --gradient-one: linear-gradient(135deg, whitesmoke 0%, lightsalmon 100%);
+  --gradient-one: linear-gradient(to bottom right, #8fcb3a, #a9ce99);
   --gradient-two: linear-gradient(to bottom right, #f47578, #e74268);
+  --gradient-three: linear-gradient(to bottom, #d34533, #e5dd5e);
 }
 
 * {
