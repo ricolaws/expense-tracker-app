@@ -2,14 +2,14 @@
   /* color: var(--color-text);
   padding: 1rem;
   margin: 2rem; */
-  background-color: var(--color-primary);
+  background-color: var(--color-light);
   padding: 1rem;
   margin: 2rem auto;
   width: 50rem;
-  max-width: 95%;
+  max-width: 100%;
   /* border-radius: 12px; */
   text-align: center;
-  border: 2px solid chartreuse;
+  /* border: 2px solid chartreuse; */
 }
 
 .expenses-filter__control {

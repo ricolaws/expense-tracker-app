@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "../UI/Card";
 import ExpenseForm from "./ExpenseForm";
 import "./NewExpense.css";
@@ -12,9 +12,33 @@ const NewExpense = (props) => {
     props.onAddExpense(expenseData);
   };
 
+  let [formState, setFormState] = useState(false);
+
+  function openFormHandler(e) {
+    setFormState(true);
+  }
+
+  function closeFormHandler(e) {
+    setFormState(false);
+  }
+
   return (
     <Card className="new-expense">
-      <ExpenseForm onAddExpenseData={addExpenseDataHandler} />
+      {!formState && (
+        <button
+          className="add-new-expense"
+          type="button"
+          onClick={openFormHandler}
+        >
+          Add New Expense
+        </button>
+      )}
+      {formState && (
+        <ExpenseForm
+          onAddExpenseData={addExpenseDataHandler}
+          onCloseForm={closeFormHandler}
+        />
+      )}
     </Card>
   );
 };
